@@ -3,8 +3,29 @@
 <suite name="Suite">
   <test thread-count="5" name="FirstTestModule">
     <classes>
+    <!-- You can have many test cases within one test module -->
       <class name="testCases.firstTestCase"/>
       <class name="testCases.SecondDummyTest"/>
+      <class name="testCases.FourthDummyTest">
+      <!-- This includes the specified method only
+      any other method(s) with in this test case will be ignored
+       -->
+      	<methods>
+      		<include name="LoginAPIHomeLoan"/>
+      	</methods>
+      </class>
     </classes>
   </test> <!-- Test Module -->
+  
+  <!-- Second Test Module. You can have many -->
+  <test name="CarLoanModule">
+  	<classes>
+  		<class name="testCases.ThirdDummyTest">
+  			<!-- Excludes specified method(test) -->
+  			<methods>
+  				<exclude name="MobileLoginCarLoan"/>
+  			</methods>
+  		</class>
+ 	</classes>
+  </test>
 </suite> <!-- Suite -->
