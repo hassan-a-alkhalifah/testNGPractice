@@ -23,7 +23,11 @@
   		<class name="testCases.ThirdDummyTest">
   			<!-- Excludes specified method(test) -->
   			<methods>
-  				<exclude name="MobileLoginCarLoan"/>
+  				<!-- .* is a regex expression which is
+  				essentially saying, exclude any test method(s)
+  				that begin(s) with the word Mobile
+  				 -->
+  				<exclude name="Mobile.*"/>
   			</methods>
   		</class>
  	</classes>
