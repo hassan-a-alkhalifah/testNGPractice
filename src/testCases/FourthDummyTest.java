@@ -22,18 +22,23 @@ public class FourthDummyTest {
 		System.out.println("mobile logout home");
 	}
 	
-	@Test
+	// timeOut will continue to try to execute test method for
+	// specified time, only if it runs past specified time will
+	// it fail
+	@Test(timeOut=4000)
 	public void MobileLoginHomeLoan2() {
 		// Appium code
 		System.out.println("mobile login home 2");
 	}
+	
 	@Test
 	public void MobileLogoutHomeLoan2() {
 		// Appium code
 		System.out.println("mobile logout home 2");
 	}
 	
-	@Test
+	// enabled helper attribute will skip this test method
+	@Test(enabled=false)
 	public void LoginAPIHomeLoan() {
 		// Rest API automation
 		System.out.println("API login home");

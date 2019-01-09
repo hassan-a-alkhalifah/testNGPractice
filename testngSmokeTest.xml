@@ -8,6 +8,11 @@
   	<groups>
   		<run>
   			<include name="Smoke"/>
+  			<!-- 
+  			You can use exclude tag to run all test cases
+  			excluding specified group name
+  			<exclude name="Smoke"/>
+  			 -->
   		</run>
   	</groups>
     <classes>

@@ -25,7 +25,12 @@ public class firstTestCase {
 	// test case. Every @Test with new method is treated as a
 	// new test case
 	
-	@Test
+	// dependsOnMethods is basically saying that SecondTest
+	// method depends on Demo method, so run Demo method first
+	// then run SecondTest method
+	// You can depend on multiple methods as well:
+	// @Test(dependsOnMethods={"testMethod1","testMethod2"})
+	@Test(dependsOnMethods= {"Demo"})
 	public void SecondTest() {
 		System.out.println("Good Bye");
 	}
