@@ -1,67 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" ignored="6" total="12" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
+  <suite name="Suite" duration-ms="106" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
     <groups>
     </groups>
-    <test name="FirstTestModule" duration-ms="60" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
+    <test name="FirstTestModule" duration-ms="42" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
       <class name="testCases.FourthDummyTest">
-        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:testCases.FourthDummyTest@3a82f6ef]" name="LoginAPIHomeLoan" duration-ms="1" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
+        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:testCases.FourthDummyTest@51efea79]" name="LoginAPIHomeLoan" duration-ms="1" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAPIHomeLoan -->
-        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:testCases.FourthDummyTest@3a82f6ef]" name="MobileLoginHomeLoan" duration-ms="1" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method status="PASS" signature="MobileLoginHomeLoan2()[pri:0, instance:testCases.FourthDummyTest@3a82f6ef]" name="MobileLoginHomeLoan2" duration-ms="2" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginHomeLoan2 -->
-        <test-method status="PASS" signature="MobileLogoutHomeLoan()[pri:0, instance:testCases.FourthDummyTest@3a82f6ef]" name="MobileLogoutHomeLoan" duration-ms="1" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLogoutHomeLoan -->
-        <test-method status="PASS" signature="MobileLogoutHomeLoan2()[pri:0, instance:testCases.FourthDummyTest@3a82f6ef]" name="MobileLogoutHomeLoan2" duration-ms="1" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLogoutHomeLoan2 -->
-        <test-method status="PASS" signature="WebLoginHomeLone()[pri:0, instance:testCases.FourthDummyTest@3a82f6ef]" name="WebLoginHomeLone" duration-ms="1" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginHomeLone -->
       </class> <!-- testCases.FourthDummyTest -->
       <class name="testCases.firstTestCase">
-        <test-method status="PASS" signature="Demo()[pri:0, instance:testCases.firstTestCase@5d5eef3d]" name="Demo" duration-ms="11" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:testCases.firstTestCase@36d4b5c]" name="prerequiste" is-config="true" duration-ms="8" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="Demo()[pri:0, instance:testCases.firstTestCase@36d4b5c]" name="Demo" duration-ms="6" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="SecondTest()[pri:0, instance:testCases.firstTestCase@5d5eef3d]" name="SecondTest" duration-ms="1" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:testCases.firstTestCase@36d4b5c]" name="SecondTest" duration-ms="1" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="lastExecution()[pri:0, instance:testCases.firstTestCase@36d4b5c]" name="lastExecution" is-config="true" duration-ms="1" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
       </class> <!-- testCases.firstTestCase -->
-      <class name="testCases.ThirdDummyTest">
-        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@643b1d11]" name="LoginAPICarLoan" duration-ms="1" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPICarLoan -->
-        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:testCases.ThirdDummyTest@643b1d11]" name="MobileLoginCarLoan" duration-ms="0" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method status="PASS" signature="WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@643b1d11]" name="WebLoginCarLone" duration-ms="1" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginCarLone -->
-      </class> <!-- testCases.ThirdDummyTest -->
       <class name="testCases.SecondDummyTest">
-        <test-method status="PASS" signature="testCase()[pri:0, instance:testCases.SecondDummyTest@100fc185]" name="testCase" duration-ms="1" started-at="2019-01-08T18:28:19Z" finished-at="2019-01-08T18:28:19Z">
+        <test-method status="PASS" signature="testCase()[pri:0, instance:testCases.SecondDummyTest@6d00a15d]" name="testCase" duration-ms="1" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase -->
       </class> <!-- testCases.SecondDummyTest -->
     </test> <!-- FirstTestModule -->
+    <test name="CarLoanModule" duration-ms="13" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+      <class name="testCases.ThirdDummyTest">
+        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@2b98378d]" name="LoginAPICarLoan" duration-ms="2" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPICarLoan -->
+        <test-method status="PASS" signature="WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@2b98378d]" name="WebLoginCarLone" duration-ms="2" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLone -->
+      </class> <!-- testCases.ThirdDummyTest -->
+    </test> <!-- CarLoanModule -->
   </suite> <!-- Suite -->
 </testng-results>
