@@ -1,6 +1,10 @@
 package testCases;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -36,6 +40,30 @@ public class firstTestCase {
 	// scope
 	public void lastExecution() {
 		System.out.println("I will execute last");
+	}
+	
+	@BeforeSuite
+	// Runs before suite which contains all test cases
+	public void BfSuite() {
+		System.out.println("I will execute before suite");
+	}
+	
+	@AfterSuite
+	// Runs after suite which contains all test cases
+	public void AfSuite() {
+		System.out.println("I will execute aefore suite");
+	}
+	
+	@BeforeMethod
+	// Runs before each test method with in test case scope
+	public void BfMethod() {
+		System.out.println("I will execute before each method");
+	}
+	
+	@AfterMethod
+	// Runs after each test method with in test case scope
+	public void AfMethod() {
+		System.out.println("I will execute after each method");
 	}
 
 }

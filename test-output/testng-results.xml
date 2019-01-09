@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="12" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="106" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+  <suite name="Default suite" duration-ms="29" started-at="2019-01-09T17:25:52Z" finished-at="2019-01-09T17:25:53Z">
     <groups>
     </groups>
-    <test name="FirstTestModule" duration-ms="42" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
-      <class name="testCases.FourthDummyTest">
-        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:testCases.FourthDummyTest@51efea79]" name="LoginAPIHomeLoan" duration-ms="1" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+    <test name="Default test" duration-ms="29" started-at="2019-01-09T17:25:52Z" finished-at="2019-01-09T17:25:53Z">
+      <class name="testCases.firstTestCase">
+        <test-method status="PASS" signature="BfSuite()[pri:0, instance:testCases.firstTestCase@100fc185]" name="BfSuite" is-config="true" duration-ms="8" started-at="2019-01-09T17:25:52Z" finished-at="2019-01-09T17:25:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginAPIHomeLoan -->
-      </class> <!-- testCases.FourthDummyTest -->
-      <class name="testCases.firstTestCase">
-        <test-method status="PASS" signature="prerequiste()[pri:0, instance:testCases.firstTestCase@36d4b5c]" name="prerequiste" is-config="true" duration-ms="8" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+        </test-method> <!-- BfSuite -->
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:testCases.firstTestCase@100fc185]" name="prerequiste" is-config="true" duration-ms="1" started-at="2019-01-09T17:25:52Z" finished-at="2019-01-09T17:25:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prerequiste -->
-        <test-method status="PASS" signature="Demo()[pri:0, instance:testCases.firstTestCase@36d4b5c]" name="Demo" duration-ms="6" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+        <test-method status="PASS" signature="BfMethod()[pri:0, instance:testCases.firstTestCase@100fc185]" name="BfMethod" is-config="true" duration-ms="1" started-at="2019-01-09T17:25:53Z" finished-at="2019-01-09T17:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method status="PASS" signature="Demo()[pri:0, instance:testCases.firstTestCase@100fc185]" name="Demo" duration-ms="8" started-at="2019-01-09T17:25:53Z" finished-at="2019-01-09T17:25:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="SecondTest()[pri:0, instance:testCases.firstTestCase@36d4b5c]" name="SecondTest" duration-ms="1" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+        <test-method status="PASS" signature="AfMethod()[pri:0, instance:testCases.firstTestCase@100fc185]" name="AfMethod" is-config="true" duration-ms="1" started-at="2019-01-09T17:25:53Z" finished-at="2019-01-09T17:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMethod -->
+        <test-method status="PASS" signature="BfMethod()[pri:0, instance:testCases.firstTestCase@100fc185]" name="BfMethod" is-config="true" duration-ms="0" started-at="2019-01-09T17:25:53Z" finished-at="2019-01-09T17:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:testCases.firstTestCase@100fc185]" name="SecondTest" duration-ms="2" started-at="2019-01-09T17:25:53Z" finished-at="2019-01-09T17:25:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondTest -->
-        <test-method status="PASS" signature="lastExecution()[pri:0, instance:testCases.firstTestCase@36d4b5c]" name="lastExecution" is-config="true" duration-ms="1" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
+        <test-method status="PASS" signature="AfMethod()[pri:0, instance:testCases.firstTestCase@100fc185]" name="AfMethod" is-config="true" duration-ms="0" started-at="2019-01-09T17:25:53Z" finished-at="2019-01-09T17:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMethod -->
+        <test-method status="PASS" signature="lastExecution()[pri:0, instance:testCases.firstTestCase@100fc185]" name="lastExecution" is-config="true" duration-ms="0" started-at="2019-01-09T17:25:53Z" finished-at="2019-01-09T17:25:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastExecution -->
+        <test-method status="PASS" signature="AfSuite()[pri:0, instance:testCases.firstTestCase@100fc185]" name="AfSuite" is-config="true" duration-ms="0" started-at="2019-01-09T17:25:53Z" finished-at="2019-01-09T17:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfSuite -->
       </class> <!-- testCases.firstTestCase -->
-      <class name="testCases.SecondDummyTest">
-        <test-method status="PASS" signature="testCase()[pri:0, instance:testCases.SecondDummyTest@6d00a15d]" name="testCase" duration-ms="1" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase -->
-      </class> <!-- testCases.SecondDummyTest -->
-    </test> <!-- FirstTestModule -->
-    <test name="CarLoanModule" duration-ms="13" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
-      <class name="testCases.ThirdDummyTest">
-        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@2b98378d]" name="LoginAPICarLoan" duration-ms="2" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPICarLoan -->
-        <test-method status="PASS" signature="WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@2b98378d]" name="WebLoginCarLone" duration-ms="2" started-at="2019-01-09T17:09:05Z" finished-at="2019-01-09T17:09:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginCarLone -->
-      </class> <!-- testCases.ThirdDummyTest -->
-    </test> <!-- CarLoanModule -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
