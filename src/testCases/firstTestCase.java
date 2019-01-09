@@ -1,8 +1,10 @@
 package testCases;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -64,6 +66,18 @@ public class firstTestCase {
 	// Runs after each test method with in test case scope
 	public void AfMethod() {
 		System.out.println("I will execute after each method");
+	}
+	
+	@BeforeClass
+	// Run before class
+	public void BfClass() {
+		System.out.println("I will execute before class");
+	}
+	
+	@AfterClass
+	// Runs after class
+	public void AfClass() {
+		System.out.println("I will execute after class");
 	}
 
 }

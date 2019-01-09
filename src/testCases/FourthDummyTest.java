@@ -16,7 +16,7 @@ public class FourthDummyTest {
 		System.out.println("mobile login home");
 	}
 	
-	@Test
+	@Test(groups={"Smoke"})
 	public void MobileLogoutHomeLoan() {
 		// Appium code
 		System.out.println("mobile logout home");

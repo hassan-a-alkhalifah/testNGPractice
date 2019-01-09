@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class ThirdDummyTest {
 
-	@Test
+	@Test(groups={"Smoke"})
 	public void WebLoginCarLone() {
 		// Selenium code
 		System.out.println("web login car");
@@ -16,7 +16,7 @@ public class ThirdDummyTest {
 		System.out.println("mobile login car");
 	}
 	
-	@Test
+	@Test(groups={"Smoke"})
 	public void LoginAPICarLoan() {
 		// Rest API automation
 		System.out.println("API login car");
