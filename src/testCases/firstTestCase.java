@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class firstTestCase {
@@ -31,8 +32,12 @@ public class firstTestCase {
 	// You can depend on multiple methods as well:
 	// @Test(dependsOnMethods={"testMethod1","testMethod2"})
 	@Test(dependsOnMethods= {"Demo"})
-	public void SecondTest() {
+	
+	// passing parameter url2 from test module within testng.xml
+	@Parameters({"url2"})
+	public void SecondTest(String url2) {
 		System.out.println("Good Bye");
+		System.out.println(url2);
 	}
 	
 	@BeforeTest

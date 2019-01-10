@@ -1,32 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39" started-at="2019-01-09T18:11:44Z" finished-at="2019-01-09T18:11:44Z">
+  <suite name="Default suite" duration-ms="49" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
     <groups>
       <group name="Smoke">
-        <method signature="FourthDummyTest.MobileLogoutHomeLoan()[pri:0, instance:testCases.FourthDummyTest@573f2bb1]" name="MobileLogoutHomeLoan" class="testCases.FourthDummyTest"/>
+        <method signature="FourthDummyTest.MobileLogoutHomeLoan()[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="MobileLogoutHomeLoan" class="testCases.FourthDummyTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Default test" duration-ms="39" started-at="2019-01-09T18:11:44Z" finished-at="2019-01-09T18:11:44Z">
+    <test name="Default test" duration-ms="49" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
       <class name="testCases.FourthDummyTest">
-        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:testCases.FourthDummyTest@573f2bb1]" name="MobileLoginHomeLoan" duration-ms="7" started-at="2019-01-09T18:11:44Z" finished-at="2019-01-09T18:11:44Z">
+        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="MobileLoginHomeLoan" duration-ms="8" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method status="PASS" signature="MobileLoginHomeLoan2()[pri:0, instance:testCases.FourthDummyTest@573f2bb1]" name="MobileLoginHomeLoan2" duration-ms="2" started-at="2019-01-09T18:11:44Z" finished-at="2019-01-09T18:11:44Z">
+        <test-method status="PASS" signature="MobileLoginHomeLoan2()[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="MobileLoginHomeLoan2" duration-ms="5" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginHomeLoan2 -->
-        <test-method status="PASS" signature="MobileLogoutHomeLoan()[pri:0, instance:testCases.FourthDummyTest@573f2bb1]" name="MobileLogoutHomeLoan" duration-ms="2" started-at="2019-01-09T18:11:44Z" finished-at="2019-01-09T18:11:44Z">
+        <test-method status="PASS" signature="MobileLogoutHomeLoan()[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="MobileLogoutHomeLoan" duration-ms="0" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLogoutHomeLoan -->
-        <test-method status="PASS" signature="MobileLogoutHomeLoan2()[pri:0, instance:testCases.FourthDummyTest@573f2bb1]" name="MobileLogoutHomeLoan2" duration-ms="1" started-at="2019-01-09T18:11:44Z" finished-at="2019-01-09T18:11:44Z">
+        <test-method status="PASS" signature="MobileLogoutHomeLoan2()[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="MobileLogoutHomeLoan2" duration-ms="1" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLogoutHomeLoan2 -->
-        <test-method status="PASS" signature="WebLoginHomeLone()[pri:0, instance:testCases.FourthDummyTest@573f2bb1]" name="WebLoginHomeLone" duration-ms="2" started-at="2019-01-09T18:11:44Z" finished-at="2019-01-09T18:11:44Z">
+        <test-method status="PASS" signature="WebLoginHomeLone(java.lang.String, java.lang.String)[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="WebLoginHomeLone" duration-ms="3" started-at="2019-01-10T01:08:48Z" data-provider="getData" finished-at="2019-01-10T01:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLone -->
+        <test-method status="PASS" signature="WebLoginHomeLone(java.lang.String, java.lang.String)[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="WebLoginHomeLone" duration-ms="1" started-at="2019-01-10T01:08:48Z" data-provider="getData" finished-at="2019-01-10T01:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLone -->
+        <test-method status="PASS" signature="WebLoginHomeLone(java.lang.String, java.lang.String)[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="WebLoginHomeLone" duration-ms="1" started-at="2019-01-10T01:08:48Z" data-provider="getData" finished-at="2019-01-10T01:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdsetpassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginHomeLone -->
