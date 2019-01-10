@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<!-- add parallel attribute to suite tag to run tests parallel 
+add thread-count to tell parallel how many tests to run parallel
+at a time
+-->
+<suite name="Suite" parallel="tests" thread-count="2">
+   <listeners>
+      <listener class-name="testCases.Listeners"/>
+   </listeners>
   <!-- This parameter is available to all test methods
   within this test suite
    -->

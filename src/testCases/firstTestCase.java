@@ -1,5 +1,6 @@
 package testCases;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -20,6 +21,8 @@ public class firstTestCase {
 	//with TestNG
 	public void Demo() {
 		System.out.println("Hello World");
+		// Added assert to simply mimic a failed test
+		Assert.assertTrue(false);
 	}
 	
 	// By adding a second @Test, this is treated as a second

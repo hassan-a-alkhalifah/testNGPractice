@@ -1,80 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
+<testng-results skipped="1" failed="1" ignored="7" total="12" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
+  <suite name="Suite" duration-ms="31" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
     <groups>
       <group name="Smoke">
-        <method signature="FourthDummyTest.MobileLogoutHomeLoan()[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="MobileLogoutHomeLoan" class="testCases.FourthDummyTest"/>
+        <method signature="SecondDummyTest.testCase(java.lang.String, java.lang.String)[pri:0, instance:testCases.SecondDummyTest@1753acfe]" name="testCase" class="testCases.SecondDummyTest"/>
+        <method signature="ThirdDummyTest.LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@3ffc5af1]" name="LoginAPICarLoan" class="testCases.ThirdDummyTest"/>
+        <method signature="ThirdDummyTest.WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@3ffc5af1]" name="WebLoginCarLone" class="testCases.ThirdDummyTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Default test" duration-ms="49" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
-      <class name="testCases.FourthDummyTest">
-        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="MobileLoginHomeLoan" duration-ms="8" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
+    <test name="CarLoanModule" duration-ms="31" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+      <class name="testCases.ThirdDummyTest">
+        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@3ffc5af1]" name="LoginAPICarLoan" duration-ms="15" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method status="PASS" signature="MobileLoginHomeLoan2()[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="MobileLoginHomeLoan2" duration-ms="5" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
+        </test-method> <!-- LoginAPICarLoan -->
+        <test-method status="PASS" signature="WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@3ffc5af1]" name="WebLoginCarLone" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLoginHomeLoan2 -->
-        <test-method status="PASS" signature="MobileLogoutHomeLoan()[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="MobileLogoutHomeLoan" duration-ms="0" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
+        </test-method> <!-- WebLoginCarLone -->
+      </class> <!-- testCases.ThirdDummyTest -->
+      <class name="testCases.firstTestCase">
+        <test-method status="PASS" signature="BfSuite()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="BfSuite" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLogoutHomeLoan -->
-        <test-method status="PASS" signature="MobileLogoutHomeLoan2()[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="MobileLogoutHomeLoan2" duration-ms="1" started-at="2019-01-10T01:08:48Z" finished-at="2019-01-10T01:08:48Z">
+        </test-method> <!-- BfSuite -->
+        <test-method status="PASS" signature="AfSuite()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="AfSuite" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLogoutHomeLoan2 -->
-        <test-method status="PASS" signature="WebLoginHomeLone(java.lang.String, java.lang.String)[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="WebLoginHomeLone" duration-ms="3" started-at="2019-01-10T01:08:48Z" data-provider="getData" finished-at="2019-01-10T01:08:48Z">
+        </test-method> <!-- AfSuite -->
+      </class> <!-- testCases.firstTestCase -->
+    </test> <!-- CarLoanModule -->
+    <test name="FirstTestModule" duration-ms="31" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+      <class name="testCases.firstTestCase">
+        <test-method status="FAIL" signature="Demo()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="Demo" duration-ms="15" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testCases.firstTestCase.Demo(firstTestCase.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="BfMethod()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="BfMethod" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="prerequiste" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="BfClass()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="BfClass" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfClass -->
+        <test-method status="PASS" signature="lastExecution()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="lastExecution" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+        <test-method status="PASS" signature="AfMethod()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="AfMethod" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMethod -->
+        <test-method status="PASS" signature="AfClass()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="AfClass" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfClass -->
+        <test-method status="SKIP" signature="SecondTest(java.lang.String)[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="SecondTest" duration-ms="0" started-at="2019-01-10T05:31:27Z" depends-on-methods="testCases.firstTestCase.Demo" finished-at="2019-01-10T05:31:27Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method firstTestCase.SecondTest(java.lang.String)[pri:0, instance:testCases.firstTestCase@7dc7cbad] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method firstTestCase.SecondTest(java.lang.String)[pri:0, instance:testCases.firstTestCase@7dc7cbad] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- testCases.firstTestCase -->
+      <class name="testCases.SecondDummyTest">
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String)[pri:0, instance:testCases.SecondDummyTest@1753acfe]" name="testCase" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firstsetusername]]>
+                <![CDATA[qaclickacademy.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firstsetpassword]]>
+                <![CDATA[zzmarineszz]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebLoginHomeLone -->
-        <test-method status="PASS" signature="WebLoginHomeLone(java.lang.String, java.lang.String)[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="WebLoginHomeLone" duration-ms="1" started-at="2019-01-10T01:08:48Z" data-provider="getData" finished-at="2019-01-10T01:08:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[secondsetusername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secondsetpassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginHomeLone -->
-        <test-method status="PASS" signature="WebLoginHomeLone(java.lang.String, java.lang.String)[pri:0, instance:testCases.FourthDummyTest@6d8a00e3]" name="WebLoginHomeLone" duration-ms="1" started-at="2019-01-10T01:08:48Z" data-provider="getData" finished-at="2019-01-10T01:08:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[thirdsetusername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[thirdsetpassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginHomeLone -->
-      </class> <!-- testCases.FourthDummyTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testCase -->
+      </class> <!-- testCases.SecondDummyTest -->
+    </test> <!-- FirstTestModule -->
+  </suite> <!-- Suite -->
 </testng-results>
