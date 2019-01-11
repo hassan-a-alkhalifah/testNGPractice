@@ -1,146 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" ignored="7" total="12" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+  <suite name="Default suite" duration-ms="53" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
     <groups>
       <group name="Smoke">
-        <method signature="SecondDummyTest.testCase(java.lang.String, java.lang.String)[pri:0, instance:testCases.SecondDummyTest@1753acfe]" name="testCase" class="testCases.SecondDummyTest"/>
-        <method signature="ThirdDummyTest.LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@3ffc5af1]" name="LoginAPICarLoan" class="testCases.ThirdDummyTest"/>
-        <method signature="ThirdDummyTest.WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@3ffc5af1]" name="WebLoginCarLone" class="testCases.ThirdDummyTest"/>
+        <method signature="ThirdDummyTest.LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="LoginAPICarLoan" class="testCases.ThirdDummyTest"/>
+        <method signature="ThirdDummyTest.WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="WebLoginCarLone" class="testCases.ThirdDummyTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="CarLoanModule" duration-ms="31" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+    <test name="Default test" duration-ms="53" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
       <class name="testCases.ThirdDummyTest">
-        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@3ffc5af1]" name="LoginAPICarLoan" duration-ms="15" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="Login" duration-ms="9" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="LoginAPICarLoan" duration-ms="3" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAPICarLoan -->
-        <test-method status="PASS" signature="WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@3ffc5af1]" name="WebLoginCarLone" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="MobileLoginCarLoan" duration-ms="6" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method status="PASS" signature="WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="WebLoginCarLone" duration-ms="4" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginCarLone -->
       </class> <!-- testCases.ThirdDummyTest -->
-      <class name="testCases.firstTestCase">
-        <test-method status="PASS" signature="BfSuite()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="BfSuite" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BfSuite -->
-        <test-method status="PASS" signature="AfSuite()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="AfSuite" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfSuite -->
-      </class> <!-- testCases.firstTestCase -->
-    </test> <!-- CarLoanModule -->
-    <test name="FirstTestModule" duration-ms="31" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-      <class name="testCases.firstTestCase">
-        <test-method status="FAIL" signature="Demo()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="Demo" duration-ms="15" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at testCases.firstTestCase.Demo(firstTestCase.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="BfMethod()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="BfMethod" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BfMethod -->
-        <test-method status="PASS" signature="prerequiste()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="prerequiste" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequiste -->
-        <test-method status="PASS" signature="BfClass()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="BfClass" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BfClass -->
-        <test-method status="PASS" signature="lastExecution()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="lastExecution" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lastExecution -->
-        <test-method status="PASS" signature="AfMethod()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="AfMethod" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfMethod -->
-        <test-method status="PASS" signature="AfClass()[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="AfClass" is-config="true" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfClass -->
-        <test-method status="SKIP" signature="SecondTest(java.lang.String)[pri:0, instance:testCases.firstTestCase@7dc7cbad]" name="SecondTest" duration-ms="0" started-at="2019-01-10T05:31:27Z" depends-on-methods="testCases.firstTestCase.Demo" finished-at="2019-01-10T05:31:27Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method firstTestCase.SecondTest(java.lang.String)[pri:0, instance:testCases.firstTestCase@7dc7cbad] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method firstTestCase.SecondTest(java.lang.String)[pri:0, instance:testCases.firstTestCase@7dc7cbad] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SecondTest -->
-      </class> <!-- testCases.firstTestCase -->
-      <class name="testCases.SecondDummyTest">
-        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String)[pri:0, instance:testCases.SecondDummyTest@1753acfe]" name="testCase" duration-ms="0" started-at="2019-01-10T05:31:27Z" finished-at="2019-01-10T05:31:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qaclickacademy.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[zzmarineszz]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase -->
-      </class> <!-- testCases.SecondDummyTest -->
-    </test> <!-- FirstTestModule -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
