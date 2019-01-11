@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="userName" value="zzmarineszz"/>
-  <parameter name="url" value="qaclickacademy.com"/>
-  <listeners>
-    <listener class-name="testCases.Listeners"/>
-  </listeners>
-  <test thread-count="2" name="FirstTestModule(failed)" parallel="tests">
-    <parameter name="url2" value="udemy.com"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.firstTestCase">
+      <class name="testCases.ThirdDummyTest">
         <methods>
-          <include name="lastExecution"/>
-          <include name="AfSuite"/>
-          <include name="BfClass"/>
-          <include name="Demo"/>
-          <include name="AfMethod"/>
-          <include name="SecondTest"/>
-          <include name="AfClass"/>
-          <include name="BfSuite"/>
-          <include name="prerequiste"/>
-          <include name="BfMethod"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- testCases.firstTestCase -->
+      </class> <!-- testCases.ThirdDummyTest -->
     </classes>
-  </test> <!-- FirstTestModule(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

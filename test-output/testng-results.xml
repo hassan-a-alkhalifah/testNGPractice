@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
+  <suite name="Default suite" duration-ms="10153" started-at="2019-01-11T22:15:43Z" finished-at="2019-01-11T22:15:53Z">
     <groups>
-      <group name="Smoke">
-        <method signature="ThirdDummyTest.LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="LoginAPICarLoan" class="testCases.ThirdDummyTest"/>
-        <method signature="ThirdDummyTest.WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="WebLoginCarLone" class="testCases.ThirdDummyTest"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test name="Default test" duration-ms="53" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
-      <class name="testCases.ThirdDummyTest">
-        <test-method status="PASS" signature="Login()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="Login" duration-ms="9" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
+    <test name="Default test" duration-ms="10153" started-at="2019-01-11T22:15:43Z" finished-at="2019-01-11T22:15:53Z">
+      <class name="testCases.FifthTestCase">
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:testCases.FifthTestCase@215be6bb]" name="OpeningBrowser" duration-ms="5413" started-at="2019-01-11T22:15:43Z" finished-at="2019-01-11T22:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testCases.FifthTestCase@215be6bb]" name="Login" duration-ms="4719" started-at="2019-01-11T22:15:48Z" finished-at="2019-01-11T22:15:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="LoginAPICarLoan" duration-ms="3" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPICarLoan -->
-        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="MobileLoginCarLoan" duration-ms="6" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method status="PASS" signature="WebLoginCarLone()[pri:0, instance:testCases.ThirdDummyTest@573f2bb1]" name="WebLoginCarLone" duration-ms="4" started-at="2019-01-11T21:46:43Z" finished-at="2019-01-11T21:46:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginCarLone -->
-      </class> <!-- testCases.ThirdDummyTest -->
+      </class> <!-- testCases.FifthTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
